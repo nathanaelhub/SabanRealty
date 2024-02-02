@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Consider using a web-safe tropical-themed font */
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #0275d8; /* Deep blue, reminiscent of the ocean */
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: url('path/to/your/hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Featured Properties */
+#featured-properties {
+    background-color: #f4f4f4;
+}
+
+.property {
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    display: inline-block;
+}
+
+/* About Him */
+#about-him {
+    background-color: #dff0d8; /* Light green, for a fresh, tropical feel */
+}
+
+/* Testimonials */
+#testimonials blockquote {
+    font-style: italic;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
